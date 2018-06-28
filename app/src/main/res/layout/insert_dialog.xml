@@ -1,5 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="@android:color/transparent"
+    android:layout_height="400dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/dialog_background"
+        android:layout_height="270dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tc"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dialog_background"
+                    android:backgroundTint="#37474F"
+                    android:textColor="@color/litegray"
+                    android:textColorHint="@color/litegray"
+                    android:id="@+id/title"
+                    android:hint="Title"/>
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/message"
+                    android:layout_marginTop="20dp"
+                    android:textColorHint="@color/litegray"
+                    android:textColor="@color/litegray"
+                    android:background="@drawable/dialog_background"
+                    android:backgroundTint="#37474F"
+                    android:hint="Your story"/>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tc"
+            android:text="submit"
+            android:id="@+id/bt_start"
+            android:theme="@style/acceptButton" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_gradient"
+        android:padding="15dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:tint="#FFC107"
+        app:srcCompat="@drawable/ic_add" />
 
 </RelativeLayout>
