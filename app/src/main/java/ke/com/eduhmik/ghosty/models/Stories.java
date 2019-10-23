@@ -1,9 +1,8 @@
-package ke.co.ziqi.ghosty.models;
+package ke.com.eduhmik.ghosty.models;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
-import android.util.Log;
 
 @Entity
 public class Stories {

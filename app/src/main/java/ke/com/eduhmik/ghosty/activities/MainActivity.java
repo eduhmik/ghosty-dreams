@@ -1,4 +1,4 @@
-package ke.co.ziqi.ghosty.activities;
+package ke.com.eduhmik.ghosty.activities;
 
 import android.app.Dialog;
 import android.graphics.drawable.ColorDrawable;
@@ -18,10 +18,10 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
 
-import ke.co.ziqi.ghosty.R;
-import ke.co.ziqi.ghosty.adapters.ListAdapter;
-import ke.co.ziqi.ghosty.database.GhostyDatabase;
-import ke.co.ziqi.ghosty.models.Stories;
+import ke.com.eduhmik.ghosty.R;
+import ke.com.eduhmik.ghosty.adapters.ListAdapter;
+import ke.com.eduhmik.ghosty.database.GhostyDatabase;
+import ke.com.eduhmik.ghosty.models.Stories;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package ke.co.ziqi.ghosty.activities;
+package ke.com.eduhmik.ghosty.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import ke.co.ziqi.ghosty.R;
+import ke.com.eduhmik.ghosty.R;
 
 public class Onboarding extends AppCompatActivity {
     Button start;

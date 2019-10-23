@@ -1,4 +1,4 @@
-package ke.co.ziqi.ghosty.adapters;
+package ke.com.eduhmik.ghosty.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -13,8 +13,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import ke.co.ziqi.ghosty.R;
-import ke.co.ziqi.ghosty.models.Stories;
+import ke.com.eduhmik.ghosty.R;
+import ke.com.eduhmik.ghosty.models.Stories;
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ClassHolder> {
     Context context;

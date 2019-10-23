@@ -1,4 +1,4 @@
-package ke.co.ziqi.ghosty.database;
+package ke.com.eduhmik.ghosty.database;
 
 
 import android.arch.persistence.room.Database;
@@ -6,7 +6,7 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import ke.co.ziqi.ghosty.models.Stories;
+import ke.com.eduhmik.ghosty.models.Stories;
 
 @Database(entities = {Stories.class}, version = 1 ,exportSchema = false)
 public abstract class GhostyDatabase extends RoomDatabase {

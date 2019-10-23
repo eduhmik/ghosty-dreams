@@ -1,4 +1,4 @@
-package ke.co.ziqi.ghosty;
+package ke.com.eduhmik.ghosty;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package ke.co.ziqi.ghosty.database;
+package ke.com.eduhmik.ghosty.database;
 
 
 import android.arch.persistence.room.Dao;
@@ -9,7 +9,7 @@ import android.arch.persistence.room.Update;
 
 import java.util.List;
 
-import ke.co.ziqi.ghosty.models.Stories;
+import ke.com.eduhmik.ghosty.models.Stories;
 
 @Dao
 public interface GhostyDao {

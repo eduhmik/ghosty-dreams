@@ -1,4 +1,4 @@
-package ke.co.ziqi.ghosty;
+package ke.com.eduhmik.ghosty;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
