@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ghosty</string>
-    <string name="desc">Hello. Welcome to Ghosty. Ghosty allows you to keep all you ghost memories in one place. Never miss a dream . Tap start below to get started.</string>
-    <string name="start">start</string>
+    <string name="app_name">Ghosty Dreams</string>
+    <string name="desc">Hello. Welcome to Ghosty. Ghosty helps you track all your dreams and keep them safe in your application. Click on add stories to begin</string>
+    <string name="start">Add stories</string>
 </resources>
