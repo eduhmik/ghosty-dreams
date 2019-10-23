@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import ke.com.eduhmik.ghosty.R;
 
-public class Onboarding extends AppCompatActivity {
+public class OnboardingActivity extends AppCompatActivity {
     Button start;
 
 
@@ -21,7 +21,7 @@ public class Onboarding extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Onboarding.this, MainActivity.class));
+                startActivity(new Intent(OnboardingActivity.this, MainActivity.class));
                 finish();
             }
         });

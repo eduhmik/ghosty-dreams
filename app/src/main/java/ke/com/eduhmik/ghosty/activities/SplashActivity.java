@@ -12,7 +12,7 @@ import android.widget.Button;
 
 import ke.com.eduhmik.ghosty.R;
 
-public class Splash extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
     Button start;
 
     @Override
@@ -30,7 +30,7 @@ public class Splash extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Splash.this, Onboarding.class));
+                startActivity(new Intent(SplashActivity.this, OnboardingActivity.class));
                 finish();
             }
         });

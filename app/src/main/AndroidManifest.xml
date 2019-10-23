@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="ke.com.eduhmik.ghosty.activities.Splash">
+        <activity android:name="ke.com.eduhmik.ghosty.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name="ke.com.eduhmik.ghosty.activities.MainActivity" />
-        <activity android:name="ke.com.eduhmik.ghosty.activities.Onboarding"></activity>
+        <activity android:name="ke.com.eduhmik.ghosty.activities.OnboardingActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
